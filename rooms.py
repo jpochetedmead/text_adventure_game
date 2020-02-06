@@ -34,6 +34,7 @@ def room01():
     #cls()
     #print("\n \n --> ROOM 1")
     print(living_room)
+    time.sleep(3)
     print('''
   Hurry, Chuky is going to find you!
   Where do you want to go now?
@@ -52,10 +53,10 @@ def room01():
     else:
         print("Chucky just killed you in the most bloody way o.O")
         print("Press CTRL + D if you want to exit the game.")
-        print("Press 5 if you want to restart the game.")
+        print("Press 6 if you want to restart the game.")
         restart_game = int(input("> "))
 
-    if restart_game == 5:
+    if restart_game == 6:
         display_intro()
     else:
         room01()
@@ -66,6 +67,7 @@ def room02():
 
     print("\n \n --> ROOM 2")
     print(kitchen)
+    time.sleep(3)
     print('''
   Hurry, Chuky is going to find you!
   Where do you want to go now?
@@ -84,10 +86,10 @@ def room02():
     else:
         print("Chucky just killed you in the most bloody way o.O")
         print("Press CTRL + D if you want to exit the game.")
-        print("Press 5 if you want to restart the game.")
+        print("Press 6 if you want to restart the game.")
         restart_game = int(input("> "))
 
-    if restart_game == 5:
+    if restart_game == 6:
         display_intro()
     else:
         room02()
@@ -97,6 +99,7 @@ def room03():
 
     print("\n \n --> ROOM 3")
     print(bedroom)
+    time.sleep(3)
     print('''
   Hurry, Chuky is going to find you!
   Where do you want to go now?
@@ -115,10 +118,10 @@ def room03():
     else:
         print("Chucky just killed you in the most bloody way o.O")
         print("Press CTRL + D if you want to exit the game.")
-        print("Press 5 if you want to restart the game.")
+        print("Press 6 if you want to restart the game.")
         restart_game = int(input("> "))
 
-    if restart_game == 5:
+    if restart_game == 6:
         display_intro()
     else:
         room03()
@@ -128,6 +131,7 @@ def room04():
 
     print("\n \n --> ROOM 4")
     print(bathroom)
+    time.sleep(3)
     print('''
   Hurry, Chuky is going to find you!
   Where do you want to go now?
@@ -146,10 +150,10 @@ def room04():
     else:
         print("Chucky just killed you in the most bloody way o.O")
         print("Press CTRL + D if you want to exit the game.")
-        print("Press 5 if you want to restart the game.")
+        print("Press 6 if you want to restart the game.")
         restart_game = int(input("> "))
 
-    if restart_game == 5:
+    if restart_game == 6:
         display_intro()
     else:
         room04()
@@ -159,6 +163,7 @@ def room05():
 
     print("\n \n --> ROOM 5")
     print(basement)
+    time.sleep(3)
     print('''
   Hurry, Chuky is going to find you!
   Where do you want to go now?
@@ -177,10 +182,10 @@ def room05():
     else:
         print("Chucky just killed you in the most bloody way o.O")
         print("Press CTRL + D if you want to exit the game.")
-        print("Press 5 if you want to restart the game.")
+        print("Press 6 if you want to restart the game.")
         restart_game = int(input("> "))
 
-    if restart_game == 5:
+    if restart_game == 6:
         display_intro()
     else:
         room05()
