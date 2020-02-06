@@ -75,6 +75,8 @@ def start_room():
     1) Ignore it and stay in bed.
     2) Go out and see who's knocking on the door.
     3) Call the Cabin owner and complain about people knocking on your door.
+    4) Go out with a baseball bat.
+    5) Ignore life and fall asleep.
     ''')
 
     print("You have selected " + user_choice)
