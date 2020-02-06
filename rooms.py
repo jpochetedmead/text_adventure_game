@@ -1,13 +1,13 @@
 from escape_game import *
 
-correctPath = random.randint(1, 2, 3, 4, 5)
+correctPath = random.randint(1, 5)
 
 class Rooms(object):
-    def __init__(self, room):
-        self.room = rooms
+    def __init__(self, theroom):
+        self.theroom = theroom
 
     def whereat(self):
-        for line in self.room:
+        for line in self.theroom:
             print(line)
 
 living_room = Rooms([
