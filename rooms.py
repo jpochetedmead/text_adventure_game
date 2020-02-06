@@ -38,7 +38,7 @@ def room01(self):
 
     living_room.whereat()
 
-    if user_choice = correctPath:
+    if user_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
@@ -51,7 +51,7 @@ def room02():
 
     kitchen.whereat()
 
-    if user_choice = correctPath:
+    if user_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
@@ -63,7 +63,7 @@ def room03():
 
     bedroom.whereat()
 
-    if user_choice = correctPath:
+    if user_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
@@ -75,7 +75,7 @@ def room04():
 
     bathroom.whereat()
 
-    if user_choice = correctPath:
+    if user_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
@@ -87,7 +87,7 @@ def room05():
 
     basement.whereat()
 
-    if user_choice = correctPath:
+    if user_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
