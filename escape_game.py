@@ -37,7 +37,7 @@ def display_intro():
     print('''WELCOME TO THE "ESCAPE THE CURSE OF CHUCKY GAME"''')
     print('-' * 60)
     time.sleep(3)
-    print("In this text based game, you will have to make the right choices in order to win/escape from Chuky.")
+    print("In this text based game, you will have to make the right choices in order to win/escape from Chucky.")
     print('-' * 60)
     time.sleep(3)
     print("GOOD LUCK! You'll need it. HA..HA")
@@ -64,19 +64,18 @@ def start_room():
     while user_choice not in start_room_options:
         cls()
         print('''
-    You were stressed from work so you went on a vacation to a Cabin in the Caribbean to recconect with life.
-    After a couple drinks and the sun sets behind the mountains you went and turned all the lights on, however a few hours later the ligths started to malfunction.
-    Then you hear someone knoking on the front door so you went to see who it was and after you opened the door there was nobody there.
+    You were stressed from work, so you went on a vacation to a Cabin in the Caribbean to reconnect with life.
+    After a couple drinks and the sun sets behind the mountains you went and turned all the lights on, however a few hours later the lights started to malfunction.
+    Then you hear someone knocking on the front door, so you went to see who it was and after you opened the door there was nobody there.
     You didn't worry too much about it and went to your bedroom to watch some movies.
-    A few minutes passed, someone knoked on the front door again...
+    A few minutes passed, someone knocked on the front door again...
 
     What do you do?
 
     1) Ignore it and stay in bed.
-    2) Go out and see who's knoking on the door.
-    3) Call the Cabin owner and complain about people knoking on your door.''')
-
-        user_choice = input("Enter option number: ")
+    2) Go out and see who's knocking on the door.
+    3) Call the Cabin owner and complain about people knocking on your door.
+    ''')
 
     print("You have selected " + user_choice)
 
