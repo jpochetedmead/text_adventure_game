@@ -22,6 +22,7 @@ def cls():
     print("\n" * 70)
 
 def loading_game():
+    cls()
     print("LOADING GAME...")
     time.sleep(3)
     print("THE GAME WILL START IN 5 SECONDS...")
@@ -57,12 +58,14 @@ def display_intro():
 def start_room():
 
     print("What is your name?")
+    #player_name = str(input("> "))
     player_name = str(input("> "))
 
-    start_room_options = [1, 2, 3, 4, 5]
+    start_room_options = ["1", "2", "3", "4", "5"]
     user_choice = ""
     while user_choice not in start_room_options:
         cls()
+        print(f"{player_name}...")
         print('''
     You were stressed from work, so you went on a vacation to a Cabin in the Caribbean to reconnect with life.
     After a couple drinks and the sun sets behind the mountains you went and turned all the lights on, however a few hours later the lights started to malfunction.
@@ -79,7 +82,9 @@ def start_room():
     5) Ignore life and fall asleep.
     ''')
 
-    print("You have selected " + user_choice)
+        user_choice = input("> ")
+
+    print(f"You have selected {user_choice}")
 
     if user_choice == start_room_options[0]:
         room01()
@@ -91,6 +96,15 @@ def start_room():
         room04()
     elif user_choice == start_room_options[4]:
         room05()
+    #elif user_choice.int() == False:
+    #    print("PLEASE ENTER A NUMBER FROM 1 TO 5")
+    #    user_choice = int(input("> "))
+
+    #elif type(user_choice) != int:
+    #    print("ENTER A NUMBER FROM 1 TO 5")
+    #else:
+    #    print("ENTER A NUMBER FROM 1 TO 5")
+    #    user_choice = int(input("> "))
 
 #- Main Program
 loading_game()

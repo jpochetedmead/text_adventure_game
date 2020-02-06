@@ -11,83 +11,176 @@ class Rooms(object):
             print(line)
 
 living_room = Rooms([
-    "You are in the living room"
+    "\n \n -->You are in the living room now"
 ])
 
 kitchen = Rooms([
-    "You are in the kitchen"
+    "\n \n -->You are in the kitchen now"
 ])
 
 bedroom = Rooms([
-    "You are in the bedroom"
+    "\n \n -->You are in the bedroom now"
 ])
 
 bathroom = Rooms([
-    "You are in the bathroom"
+    "\n \n -->You are in the bathroom now"
 ])
 
 basement = Rooms([
-    "You are in the basement"
+    "\n \n -->You are in the basement now"
 ])
 
+def room01():
+    #cls()
+    #print("\n \n --> ROOM 1")
+    print(living_room)
+    print('''
+  Hurry, Chuky is going to find you!
+  Where do you want to go now?
+    1) Stay hiding here
+    2) Kitchen
+    3) Bedroom
+    4) Bathroom
+    5) Basement
+    ''')
+    path_choice = int(input("> "))
 
-def room01(self):
-    cls()
+    #living_room.whereat()
 
-    #print("\n \n --> You are in Room 01 now")
-
-    living_room.whereat()
-
-    if user_choice == correctPath:
+    if path_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
+        print("Press CTRL + D if you want to exit the game.")
+        print("Press 5 if you want to restart the game.")
+        restart_game = int(input("> "))
+
+    if restart_game == 5:
+        display_intro()
+    else:
+        room01()
 
 
 def room02():
-    cls()
+    #cls()
 
-    #print("\n \n --> You are in Room 02 now")
+    print("\n \n --> ROOM 2")
+    print(kitchen)
+    print('''
+  Hurry, Chuky is going to find you!
+  Where do you want to go now?
+    1) Living Room
+    2) Stay hiding here
+    3) Bedroom
+    4) Bathroom
+    5) Basement
+    ''')
+    path_choice = input("> ")
 
-    kitchen.whereat()
+    #kitchen.whereat()
 
-    if user_choice == correctPath:
+    if path_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
+        print("Press CTRL + D if you want to exit the game.")
+        print("Press 5 if you want to restart the game.")
+        restart_game = int(input("> "))
+
+    if restart_game == 5:
+        display_intro()
+    else:
+        room02()
 
 def room03():
-    cls()
+    #cls()
 
-    #print("\n \n --> You are in Room 03 now")
+    print("\n \n --> ROOM 3")
+    print(bedroom)
+    print('''
+  Hurry, Chuky is going to find you!
+  Where do you want to go now?
+    1) Living Room
+    2) Kitchen
+    3) Stay hiding here
+    4) Bathroom
+    5) Basement
+    ''')
+    path_choice = input("> ")
 
-    bedroom.whereat()
+    #bedroom.whereat()
 
-    if user_choice == correctPath:
+    if path_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
+        print("Press CTRL + D if you want to exit the game.")
+        print("Press 5 if you want to restart the game.")
+        restart_game = int(input("> "))
+
+    if restart_game == 5:
+        display_intro()
+    else:
+        room03()
 
 def room04():
-    cls()
+    #cls()
 
-    #print("\n \n --> You are in Room 04 now")
+    print("\n \n --> ROOM 4")
+    print(bathroom)
+    print('''
+  Hurry, Chuky is going to find you!
+  Where do you want to go now?
+    1) Living Room
+    2) Kitchen
+    3) Bedroom
+    4) Stay hiding here
+    5) Basement
+    ''')
+    path_choice = input("> ")
 
-    bathroom.whereat()
+    #bathroom.whereat()
 
-    if user_choice == correctPath:
+    if path_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
+        print("Press CTRL + D if you want to exit the game.")
+        print("Press 5 if you want to restart the game.")
+        restart_game = int(input("> "))
+
+    if restart_game == 5:
+        display_intro()
+    else:
+        room04()
 
 def room05():
-    cls()
+    #cls()
 
-    #print("\n \n --> You are in Room 05 now")
+    print("\n \n --> ROOM 5")
+    print(basement)
+    print('''
+  Hurry, Chuky is going to find you!
+  Where do you want to go now?
+    1) Living Room
+    2) Kitchen
+    3) Bedroom
+    4) Bathroom
+    5) Stay hiding here
+    ''')
+    path_choice = input("> ")
 
-    basement.whereat()
+    #basement.whereat()
 
-    if user_choice == correctPath:
+    if path_choice == correctPath:
         print("Good Job, you are still alive!")
     else:
         print("Chucky just killed you in the most bloody way o.O")
+        print("Press CTRL + D if you want to exit the game.")
+        print("Press 5 if you want to restart the game.")
+        restart_game = int(input("> "))
+
+    if restart_game == 5:
+        display_intro()
+    else:
+        room05()
